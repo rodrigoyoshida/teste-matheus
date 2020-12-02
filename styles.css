@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body .container{
+    margin: 0px 200px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+header .container nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header .container nav ul li a{
+    color: #000;
+    text-decoration: none;
+    border-right: 1px solid #000000;
+    padding: 0px 15px;
+}
+
+header .container nav ul li a:hover{
+    color: #3642EF;
+}
+
+header .container nav ul li:last-child a{
+    border-right: 0;
+}
+
+header .container .menu-icons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .container .menu-icons h4{
+    margin-right: 20px;
+}
+
+header .container .menu-icons .icons{
+    display: flex;
+}
+
+header .container .menu-icons .icons a{
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 16px;
+    border-radius: 100%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transform: translateZ(0);
+    transition-duration: .4s;
+    transition-property: color,background-color,background-image,background-position,opacity,background-size,padding-left,
+    width,filter,right,left,width,margin-left,margin-top,margin-right,margin-bottom,box-shadow,transform,border,font-size;
+}
+
+header .container .menu-icons .icons a:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+#home .background img{
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#home .quem-somos .container{
+    padding: 70px 0px;
+}
+
+#home .quem-somos .container .grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .quem-somos .container .grid-container .grid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+#home .quem-somos .container .grid-container .grid a{
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+#home .quem-somos .container .text{
+    text-align: center;
+    padding-top: 55px;
+}
+
+#home .quem-somos .container .text h1{
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#home .quem-somos .container .text p{
+    font-size: 22px;
+}
+
+#home .box .grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#home .box .grid-container .grid{
+    width: 33.33%;
+    height: 635px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 120px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#home .box .grid-container .grid a{
+    width: 115px;
+    height: 115px;
+    background-color: #000;
+    color: #fff;
+    font-size: 55px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+#home .box .grid-container .grid h3{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#home .box .grid-container .grid p{
+    font-size: 20px;
+}
+
+#home .box .grid-container .verde{
+    background-color: #c6dfe3;
+}
+
+#home .box .grid-container .cinza{
+    background-color: #e6e9ee;
+}
+
+#home .box .grid-container .cinza-escuro{
+    background-color: #bfcacc;
+}
+
+#home .usuarios .container .grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+#home .usuarios .container .grid-container .grid{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+#home .usuarios .container .grid-container .grid .far{
+    font-size: 110px;
+    margin-bottom: 20px;
+}
+
+#home .usuarios .container .grid-container .grid h3{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #1d3c41;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+footer .container .menu-rodape{
+    margin: 0px 38px;
+}
+
+footer .container .copyright a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+footer .container ul{
+    list-style: none;
+    display: flex;
+}
+
+footer .container ul li a{
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+    padding: 0px 20px;
+}
+
+footer .container ul li a:hover{
+    color: #39923F;
+}
+
+footer .container ul li:last-child a{
+    border-right: 0;
+}
+
+@media only screen and (max-width: 1600px){
+    body .container{
+        margin: 0px 50px;
+    }
+    
+    #home .box .grid-container .grid{
+        height: 500px;
+        padding: 80px;
+    }
+    
+    #home .box .grid-container .grid a{
+        width: 90px;
+        height: 90px;
+        font-size: 45px;
+    }
+    
+    #home .box .grid-container .grid h3{
+        font-size: 28px;
+    }
+    
+    #home .box .grid-container .grid p{
+        font-size: 16px;
+    }
+
+    #home .usuarios .container .grid-container .grid .far{
+        font-size: 100px;
+        margin-bottom: 20px;
+    }
+    
+    #home .usuarios .container .grid-container .grid h3{
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+    
+    footer .container .menu-rodape{
+        margin: 0px 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #home .quem-somos .container .grid-container .grid{
+        margin: 0px 20px;
+    }
+
+    #home .quem-somos .container .grid-container .grid p{
+        font-size: 14px;
+    }
+
+    #home .quem-somos .container .text h1{
+        font-size: 40px;
+    }
+    
+    #home .quem-somos .container .text p{
+        font-size: 16px;
+    }
+
+    #home .box .grid-container .grid {
+        height: 400px;
+        padding: 40px;
+    }
+
+    #home .box .grid-container .grid a{
+        margin-bottom: 25px;
+    }
+
+    #home .usuarios .container .grid-container .grid{
+        padding: 10px;
+    }
+
+    #home .usuarios .container .grid-container .grid .far {
+        font-size: 90px;
+    }
+
+    #home .usuarios .container .grid-container .grid h3{
+        font-size: 24px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+
+    footer .container .menu-rodape{
+        margin: 0px;
+    }
+
+    footer .container ul li a{
+        padding: 0px 15px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    body {
+        font-size: 12px;
+    }
+    
+    body .container{
+        margin: 0px;
+    }
+    
+    header .container{
+        flex-wrap: wrap;
+    }
+
+    header .container nav{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    header .container nav ul{
+        justify-content: center;
+    }
+
+    header .container nav ul li a{
+        padding: 0px 10px;
+    }
+    
+    header .container .menu-icons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header .container .menu-icons h4{
+        margin-right: 10px;
+    }
+    
+    header .container .menu-icons .icons a{
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    header .container .menu-icons .icons a:last-child{
+        margin-right: 0px;
+    }
+    
+    #home .background img{
+        height: 300px;
+    }
+    
+    #home .quem-somos .container{
+        padding: 50px 0px;
+    }
+    
+    #home .quem-somos .container .grid-container{
+        flex-wrap: wrap;
+    }
+
+    #home .quem-somos .container .grid-container .grid a{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    #home .quem-somos .container .grid-container .grid p{
+        margin-bottom: 25px;
+    }
+    
+    #home .quem-somos .container .text{
+        padding-top: 20px;
+    }
+    
+    #home .quem-somos .container .text h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    
+    #home .quem-somos .container .text p{
+        font-size: 16px;
+        padding: 0px 10px;
+    }
+
+    #home .quem-somos .container .text p br{
+        display: none;
+    }
+    
+    #home .box .grid-container{
+        justify-content: left;
+    }
+    
+    #home .box .grid-container .grid{
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+    }
+    
+    #home .box .grid-container .grid a{
+        width: 40px;
+        height: 40px;
+        background-color: #000;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    
+    #home .box .grid-container .grid h3{
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    #home .box .grid-container .grid p{
+        font-size: 10px;
+    }
+    
+    #home .box .grid-container .verde{
+        background-color: #c6dfe3;
+    }
+    
+    #home .box .grid-container .cinza{
+        background-color: #e6e9ee;
+    }
+    
+    #home .box .grid-container .cinza-escuro{
+        background-color: #bfcacc;
+    }
+    
+    #home .usuarios .container .grid-container{
+        padding: 30px 0px;
+        flex-wrap: wrap;
+    }
+    
+    #home .usuarios .container .grid-container .grid{
+        width: 50%;
+        padding: 10px 20px;
+    }
+    
+    #home .usuarios .container .grid-container .grid .far{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    
+    #home .usuarios .container .grid-container .grid h3{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    footer .container{
+        padding: 30px 0px;
+        flex-wrap: wrap;
+    }
+    
+    footer .container .menu-rodape{
+        margin: 20px 0px;
+    }
+    
+    footer .container .copyright a{
+        padding: 0px 20px;
+    }
+    
+    footer .container ul{
+        flex-wrap: wrap;
+    }
+    
+    footer .container ul li a{
+        color: #fff;
+        padding: 0px 7px;
+        font-size: 10px;
+    }
+    
+    footer .container ul li:last-child a{
+        border-right: 0;
+    }
+
+    footer .container .copyright a{
+        font-size: 10px;
+    }
+}
